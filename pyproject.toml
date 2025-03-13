@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "devmation"
+version = "0.1.0"
+description = ""
+authors = ["Guilherme M. Toso <gui.m.toso@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+manim = "^0.19.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
